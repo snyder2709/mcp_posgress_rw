@@ -1,6 +1,6 @@
 {
   "name": "@ilya_voletarskii/mcp-postgres-rw",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "bin": {
     "mcp-postgres-rw": "index.js"
