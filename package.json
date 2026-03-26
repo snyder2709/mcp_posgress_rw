@@ -1,6 +1,7 @@
 {
-  "name": "@ilya_voletarskii/mcp-postgres-rw",
+  "name": "mcp-postgres-rw",
   "version": "1.0.2",
+  "description": "MCP server for PostgreSQL with both read and write support (INSERT, UPDATE, DELETE, DDL). Unlike the official server-postgres, this one allows write operations.",
   "type": "module",
   "bin": {
     "mcp-postgres-rw": "index.js"
@@ -8,6 +9,30 @@
   "files": [
     "index.js"
   ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "postgres",
+    "postgresql",
+    "claude",
+    "llm",
+    "read-write",
+    "sql",
+    "database",
+    "ai-tools"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snyder2709/mcp-postgres-rw.git"
+  },
+  "homepage": "https://github.com/snyder2709/mcp-postgres-rw#readme",
+  "bugs": {
+    "url": "https://github.com/snyder2709/mcp-postgres-rw/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "pg": "^8.0.0"
