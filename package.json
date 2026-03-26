@@ -1,7 +1,13 @@
 {
-  "name": "postgres-rw",
+  "name": "@ilya_voletarskii/mcp-postgres-rw",
   "version": "1.0.0",
   "type": "module",
+  "bin": {
+    "mcp-postgres-rw": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "pg": "^8.0.0"

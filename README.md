@@ -13,25 +13,11 @@ A Model Context Protocol (MCP) server for PostgreSQL that supports both read and
 
 ## Installation
 
-### 1. Clone the repository
-
 ```bash
-git clone https://github.com/snyder2709/mcp_posgress_rw.git
-cd mcp_posgress_rw
-npm install
+claude mcp add --transport stdio -- postgres npx -y mcp-postgres-rw postgresql://user:password@host:5432/dbname
 ```
 
-### 2. Add to Claude Code
-
-```bash
-claude mcp add --transport stdio -- postgres node /path/to/mcp_posgress_rw/index.js postgresql://user:password@host:5432/dbname
-```
-
-Replace `/path/to/mcp_posgress_rw` with the actual path and provide your PostgreSQL connection string.
-
-### 3. Restart Claude Code
-
-After restarting, the `query` and `execute` tools will be available.
+Restart Claude Code — `query` and `execute` tools will be available.
 
 ---
 
@@ -48,25 +34,11 @@ MCP-сервер для PostgreSQL с поддержкой операций чт
 
 ## Установка
 
-### 1. Клонировать репозиторий
-
 ```bash
-git clone https://github.com/snyder2709/mcp_posgress_rw.git
-cd mcp_posgress_rw
-npm install
+claude mcp add --transport stdio -- postgres npx -y mcp-postgres-rw postgresql://user:password@host:5432/dbname
 ```
 
-### 2. Добавить в Claude Code
-
-```bash
-claude mcp add --transport stdio -- postgres node /path/to/mcp_posgress_rw/index.js postgresql://user:password@host:5432/dbname
-```
-
-Замените `/path/to/mcp_posgress_rw` на реальный путь и укажите строку подключения к вашей БД.
-
-### 3. Перезапустить Claude Code
-
-После перезапуска будут доступны инструменты `query` и `execute`.
+Перезапустить Claude Code — будут доступны инструменты `query` и `execute`.
 
 ## Requirements
 
