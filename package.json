@@ -1,0 +1,9 @@
+{
+  "name": "postgres-rw",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "pg": "^8.0.0"
+  }
+}
